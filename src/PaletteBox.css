@@ -1,0 +1,12 @@
+.palletBox {
+    width: 25%;
+    height: 50%;
+    margin: 0 auto;
+    padding-left: 10px;
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: -3.5px;
+    background: wheat;
+    border: 6px solid rgb(255, 255, 255);
+  }
