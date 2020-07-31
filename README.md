@@ -1,5 +1,10 @@
 Displays multiple colors belonging to different palettes and automatically copies the color to user's clipboard when user clicks on color box.
 
+![](home.png)
+
+![](palette.png)
+
+![](copy.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
