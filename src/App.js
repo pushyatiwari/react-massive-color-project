@@ -5,6 +5,8 @@ import './App.css';
 import Palette from './Palette';
 import seedColors from './seedColors';
 import HomePage from './HomePage';
+import {generatePalette} from "./colorHelpers";
+
 
 class App extends Component {
       constructor(props)
@@ -24,14 +26,14 @@ class App extends Component {
  
       return (
       <div className = 'App'>
-      <Navbar/>
+     
      
      
    <Switch>
      <Route
           exact
           path='/palette/:i'
-          render={routeProps => <Palette {...seedColors[this.state.ind]}/>}
+          render={routeProps => <Palette palette={generatePalette(seedColors[this.state.ind])}/>}
         />
          <Route
           exact

@@ -30,7 +30,8 @@ changeCopyState(){
       let text;
       if(copied==true)
       {
-          text =  <h2 class={copycontainercontentframe} style={{ background: background } } >Color copied</h2>;
+          text =  <h2 class={copycontainercontentframe} style={{ background: background } } >
+            Color copied: {background}</h2>;
       }
       else{
           text = "";
@@ -44,9 +45,12 @@ changeCopyState(){
           <div className='copy-container'>
               <div className = 'box-content'>
               <div class={copycontainer}>
+                
             	<div class={copycontainercontent}>
                   {text}
+                 
             	</div>
+            
         </div>
        
         {/* <div className={`container${true&&copied}`}

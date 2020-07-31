@@ -29,7 +29,8 @@
   
   .ColorBox:hover .copy-button {
     opacity: 1;
-    transition: 0.5s;
+	transition: 0.5s;
+	
   }
   
   .box-content {
@@ -78,6 +79,7 @@
 	width: 100%;
 	height: 100%;
 	left: 0px;
+
 	top: 0px;
 	z-index: 1000;
 }
@@ -89,6 +91,7 @@
 	height: 220px;
 	margin-top: -50px;
 	font-size: 90px;
+	
 	width: 100%;
 	text-align: center;
 	
